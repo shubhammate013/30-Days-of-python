@@ -13,7 +13,7 @@ print(a + b)
 # Dynamic Typing in python
 a = 5
 # Static Typing in other language
-# int a = 5 
+int a = 5 
 
 # Dynamic Binding
 a = 5
