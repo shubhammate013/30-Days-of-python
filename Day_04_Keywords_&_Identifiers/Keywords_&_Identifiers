@@ -1,0 +1,31 @@
+# Keywords
+
+# - Python is a case sensitive programming language
+# In programming, a keyword is a word that is reserved by a program because the word has a special meaning.
+# Keywords can be commands or parameters. Every programming language has a set of keywords that cannot be used as variable names.
+
+
+# python has 33 keywords
+import keyword
+print(keyword.kwlist)
+
+
+# Identifiers
+
+# A Python identifier is a name used to identify a variable, function, class, module or other object.
+# Rules for setting Identifiers.
+#   - can only start with an alphabet or _
+#   - Followed by 0 or more letter,_ and digits
+#   - keywords cannot be used as an identifiers
+
+# Identifiers
+# You can't start with a digit
+name1 = 'Shubham'
+print(name1)
+# You can use special chars -> _
+_ = 'shubham'
+print(_)
+# identiers can not be keyword
+
+# False = "shubham" # when you will print this statement it will automatically raise error identifier error issue.
+print(False) # cannot assign to False
