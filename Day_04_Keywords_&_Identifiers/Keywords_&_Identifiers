@@ -27,5 +27,5 @@ _ = 'shubham'
 print(_)
 # identiers can not be keyword
 
-# False = "shubham" # when you will print this statement it will automatically raise error identifier error issue.
+False = "shubham" # when you will print this statement it will automatically raise error identifier error issue.
 print(False) # cannot assign to False
