@@ -7,18 +7,15 @@
 
 
 # -- If Condition --
-
-# In python and other programming languages the key word _if_ is used to check if a condition is true and to execute the block code. Remember the indentation after the colon.
+ In python and other programming languages the key word _if_ is used to check if a condition is true and to execute the block code. Remember the indentation after the colon.
 
 # syntax
-'''
+
 if condition:
     this part of code runs for truthy conditions
+    
 
-    '''
-
-# Example: 1
-
+# Example: 
 
 a = 3
 if a > 0:
@@ -29,7 +26,7 @@ if a > 0:
 # As you can see in the example above, 3 is greater than 0. The condition was true and the block code was executed. However, if the condition is false, we do not see the result. In order to see the result of the falsy condition, we should have another block, which is going to be _else_.
 
 # -- If Else --
-# If condition is true the first block will be executed, if not the else condition will run.
+ If condition is true the first block will be executed, if not the else condition will run.
 
 # syntax
 if condition:
@@ -51,7 +48,7 @@ else:
 
 
 # -- If Elif Else --
-# In our daily life, we make decisions on daily basis. We make decisions not by checking one or two conditions but multiple conditions. As similar to life, programming is also full of conditions. We use _elif_ when we have multiple conditions.
+In our daily life, we make decisions on daily basis. We make decisions not by checking one or two conditions but multiple conditions. As similar to life, programming is also full of conditions. We use _elif_ when we have multiple conditions.
 
 
 # syntax
@@ -64,8 +61,7 @@ else:
 
 
 # Example: 
-
-
+    
 a = 0
 if a > 0:
     print('A is a positive number')
@@ -84,8 +80,7 @@ if condition else code
 
 
 # Example: 
-
-
+    
 a = 3
 print('A is positive') if a > 0 else print('A is negative') # first condition met, 'A is positive' will be printed
 
@@ -117,7 +112,8 @@ else:
 
 # We can avoid writing nested condition by using logical operator _and_.
 
-# If Condition and Logical Operators
+# Logical Operators using conditionals
+If Condition and Logical Operators
 
 
 # syntax
@@ -137,7 +133,9 @@ elif a == 0:
 else:
     print('A is negative')
 
-# If and Or Logical Operators
+ 
+ # Logical Operators using conditionals
+ If and Or Logical Operators
 
 
 # syntax
@@ -153,8 +151,4 @@ if user == 'admin' or access_level >= 4:
         print('Access granted!')
 else:
     print('Access denied!')
-
-
-🌕 You are doing great.Never give up because great things take time. You have just completed day 9 challenges and you are 9 steps a head in to your way to greatness. Now do some exercises for your brain and muscles.
-
 
