@@ -32,11 +32,12 @@ if a > 0:
 # If condition is true the first block will be executed, if not the else condition will run.
 
 # syntax
+'''
 if condition:
     this part of code runs for truthy conditions
 else:
      this part of code runs for false conditions
-
+'''
 
 # Example: 
 
@@ -55,13 +56,14 @@ else:
 
 
 # syntax
+'''    
 if condition:
     code
 elif condition:
     code
 else:
     code
-
+'''
 
 # Example: 
 
@@ -79,9 +81,10 @@ else:
 
 
 # syntax
+'''  
 code 
 if condition else code
-
+'''
 
 # Example: 
 
@@ -91,16 +94,17 @@ print('A is positive') if a > 0 else print('A is negative') # first condition me
 
 
 # Nested Conditions
-
+'''
 Conditions can be nested
-
+'''
 
 # syntax
+'''
 if condition:
     code
     if condition:
     code
-
+'''
 
 # Example: 
 
@@ -121,9 +125,10 @@ else:
 
 
 # syntax
+'''
 if condition and condition:
     code
-
+'''
 
 # Example: 
 
@@ -141,9 +146,10 @@ else:
 
 
 # syntax
+'''
 if condition or condition:
     code
-
+'''
 
 # Example:
 
@@ -155,6 +161,5 @@ else:
     print('Access denied!')
 
 
-🌕 You are doing great.Never give up because great things take time. You have just completed day 9 challenges and you are 9 steps a head in to your way to greatness. Now do some exercises for your brain and muscles.
 
 
