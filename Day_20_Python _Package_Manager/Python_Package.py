@@ -275,13 +275,6 @@ Python 3.9.6 (default, Jun 28 2021, 15:26:21)
 [Clang 11.0.0 (clang-1100.0.33.8)] on darwin
 Type "help", "copyright", "credits" or "license" for more information.
 '''
-import arithmetics
-arithmetics.add_numbers(1, 2, 3, 5)
-arithmetics.subtract(5, 3)
-arithmetics.multiple(5, 3)
-arithmetics.division(5, 3)
-arithmetics.remainder(5, 3)
-arithmetics.power(5, 3)
 
 # As you can see our package works perfectly. The package folder contains a special file called **__init__**.py - it stores the package's content. If we put **__init__**.py in the package folder, python start recognizes it as a package.
 # The **__init__**.py exposes specified resources from its modules to be imported to other python files. An empty **__init__**.py file makes all functions available when a package is imported. The **__init__**.py is essential for the folder to be recognized by Python as a package.
