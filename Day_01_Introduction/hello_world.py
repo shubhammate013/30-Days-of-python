@@ -1,6 +1,4 @@
 print("hello_world")
-name = "Memory Robot"
-print(name)
 
 # print a string using varible
 s = "hello"
