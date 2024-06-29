@@ -1,5 +1,5 @@
 # Intial Static String
-from fastapi import FastAPI
+from fastapi import FastAPI # type: ignore
 from flask import app
 
 

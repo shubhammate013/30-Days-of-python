@@ -1,4 +1,5 @@
-from fastapi import FastAPI
+from fastapi import FastAPI # type: ignore
+from flask import Flask
 
 app = FastAPI()
 @app.get("/get-massage")
