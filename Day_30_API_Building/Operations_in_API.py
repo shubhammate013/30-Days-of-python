@@ -1,4 +1,7 @@
 # Intial Static String
+from fastapi import FastAPI
+from flask import app
+
 
 static_string = "Intial Text"
 
